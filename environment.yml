@@ -2,7 +2,10 @@ name: notebook
 channels:
   - conda-forge
   - defaults
+  
 dependencies:
+  - appmode
+
   
   - pip:
     - appmode==0.7.0
