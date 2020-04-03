@@ -1,0 +1,37 @@
+﻿source,target,value
+FO 3.5%,Arab Heavy,65
+Jet,Arab Heavy,35
+Dated Brent,Arab light,45
+Jet,Arab light,15
+VGO 2%,Arab light,30
+ULSD,Arab light,10
+Dated Brent,Bonny light,100
+Dated Brent,BTC,40
+Naphtha,BTC,25
+Propane,BTC,35
+Dated Brent,Dalia,30
+FO 1%,Dalia,70
+Dated Brent,Dubai,50
+FO 3.5%,Dubai,35
+FO 1%,Dubai,15
+FO 3.5%,Mars,75
+Jet,Mars,25
+FO 3.5%,Maya Europe,60
+FO 1%,Maya Europe,20
+Gasoil,Maya Europe,20
+FO 3.5%,Maya USGC,75
+Jet,Maya USGC,25
+Naphtha,Ormen Lange,30
+Butane,Ormen Lange,65
+Propane,Ormen Lange,5
+Dated Brent,Oseberg blend,100
+Dated Brent,Tapis,45
+Jet,Tapis,55
+FO 3.5%,Urals MED,45
+FO 1%,Urals MED,55
+FO 3.5%,Urals NWE,55
+Dated Brent,Urals NWE,30
+FO 1%,Urals NWE,15
+Dated Brent,WTI,75
+Butane,WTI,10
+VGO 0.5%,WTI,15
