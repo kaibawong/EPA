@@ -1,11 +1,11 @@
 {
-  "base_url": "/binder/jupyter/user/kaibawong-epa-yy8mvl3v/",
+  "base_url": "/user/kaibawong-epa-iy3phdxn/",
   "hostname": "0.0.0.0",
   "notebook_dir": "/home/jovyan",
   "password": false,
   "pid": 1,
   "port": 8888,
   "secure": false,
-  "token": "GCAfzniaSQuKB9l5KQlrGg",
-  "url": "http://0.0.0.0:8888/binder/jupyter/user/kaibawong-epa-yy8mvl3v/"
+  "token": "HqMOSvC0TfyKy8nYBX7dbg",
+  "url": "http://0.0.0.0:8888/user/kaibawong-epa-iy3phdxn/"
 }
