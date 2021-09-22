@@ -132,3 +132,95 @@ Websocket closed
 [W 13:00:03.713 NotebookApp] 404 GET /user/kaibawong-epa-y9u1r3kl/api/contents/4D_pressure_calib.ipynb?content=0&1632142803622 (143.97.2.35) 1.710000ms referer=https://hub.gke2.mybinder.org/user/kaibawong-epa-y9u1r3kl/lab/workspaces/auto-J/tree/Untitled1.ipynb
 [I 13:00:04.282 NotebookApp] Uploading file to /4D_pressure_calib.ipynb
 [W 13:00:04.282 NotebookApp] Notebook 4D_pressure_calib.ipynb is not trusted
+[I 13:12:17.292 NotebookApp] Appmode server extension loaded.
+[W 2021-09-22 13:12:17.981 LabApp] 'ip' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[W 2021-09-22 13:12:17.981 LabApp] 'port' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[W 2021-09-22 13:12:17.981 LabApp] 'port' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[W 2021-09-22 13:12:17.981 LabApp] 'base_url' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[W 2021-09-22 13:12:17.981 LabApp] 'token' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[W 2021-09-22 13:12:17.981 LabApp] 'trust_xheaders' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[W 2021-09-22 13:12:17.981 LabApp] 'allow_origin' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[W 2021-09-22 13:12:17.984 LabApp] 'allow_origin_pat' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[W 2021-09-22 13:12:17.984 LabApp] 'extra_template_paths' was found in both NotebookApp and ServerApp. This is likely a recent change. This config will only be set in NotebookApp. Please check if you should also config these traits in ServerApp for your purpose.
+[W 2021-09-22 13:12:17.984 LabApp] 'jinja_template_vars' was found in both NotebookApp and ServerApp. This is likely a recent change. This config will only be set in NotebookApp. Please check if you should also config these traits in ServerApp for your purpose.
+[W 2021-09-22 13:12:17.984 LabApp] 'shutdown_no_activity_timeout' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[W 2021-09-22 13:12:17.984 LabApp] 'tornado_settings' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[W 2021-09-22 13:12:17.984 LabApp] 'tornado_settings' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[I 2021-09-22 13:12:17.989 LabApp] JupyterLab extension loaded from /srv/conda/envs/notebook/lib/python3.7/site-packages/jupyterlab
+[I 2021-09-22 13:12:17.990 LabApp] JupyterLab application directory is /srv/conda/envs/notebook/share/jupyter/lab
+[I 13:12:18.002 NotebookApp] nteract extension loaded from /srv/conda/envs/notebook/lib/python3.7/site-packages/nteract_on_jupyter
+[I 13:12:18.004 NotebookApp] Will shut down after 600 seconds with no kernels or terminals.
+[I 13:12:18.004 NotebookApp] Serving notebooks from local directory: /home/jovyan
+[I 13:12:18.004 NotebookApp] Jupyter Notebook 6.3.0 is running at:
+[I 13:12:18.004 NotebookApp] http://jupyter-kaibawong-2depa-2d4k97ynb8:8888/user/kaibawong-epa-4k97ynb8/?token=...
+[I 13:12:18.004 NotebookApp]  or http://127.0.0.1:8888/user/kaibawong-epa-4k97ynb8/?token=...
+[I 13:12:18.004 NotebookApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[W 13:12:18.009 NotebookApp] No web browser found: could not locate runnable browser.
+[I 13:12:18.011 NotebookApp] 302 GET /user/kaibawong-epa-4k97ynb8/ (10.0.21.53) 0.740000ms
+[I 13:12:28.750 NotebookApp] 302 GET /user/kaibawong-epa-4k97ynb8/?token=oP7felF3TAa7Gw6Kfxe8Ug (89.10.201.209) 0.720000ms
+[I 13:12:28.958 NotebookApp] 301 GET /user/kaibawong-epa-4k97ynb8/lab/?token=oP7felF3TAa7Gw6Kfxe8Ug (89.10.201.209) 1.520000ms
+[I 13:12:32.703 NotebookApp] 301 GET /user/kaibawong-epa-4k97ynb8/static/favicons/favicon.ico (89.10.201.209) 0.770000ms
+[I 2021-09-22 13:12:35.741 LabApp] Build is up to date
+/srv/conda/envs/notebook/lib/python3.7/json/encoder.py:257: UserWarning: date_default is deprecated since jupyter_client 7.0.0. Use jupyter_client.jsonutil.json_default.
+  return _iterencode(o, 0)
+[W 13:12:37.642 NotebookApp] 404 GET /user/kaibawong-epa-4k97ynb8/terminals/websocket/1 (89.10.201.209) 42.340000ms referer=None
+[W 13:12:49.102 NotebookApp] Notebook 4D_pressure_calib.ipynb is not trusted
+[I 13:12:50.622 NotebookApp] Kernel started: d73ba3b5-3174-4bd0-ae9f-25f7c053355e, name: python3
+[I 13:12:50.623 NotebookApp] Culling kernels with idle durations > 600 seconds at 60 second intervals ...
+[I 13:12:50.623 NotebookApp] Culling kernels even with connected clients
+/srv/conda/envs/notebook/lib/python3.7/json/encoder.py:257: UserWarning: date_default is deprecated since jupyter_client 7.0.0. Use jupyter_client.jsonutil.json_default.
+  return _iterencode(o, 0)
+[I 13:12:51.642 NotebookApp] Starting buffering for d73ba3b5-3174-4bd0-ae9f-25f7c053355e:5b06354c-8948-4c4b-9e38-c061844e17fa
+[I 13:12:52.260 NotebookApp] 301 GET /user/kaibawong-epa-4k97ynb8/static/favicons/favicon-busy-1.ico (89.10.201.209) 0.680000ms
+[I 13:13:08.364 NotebookApp] New terminal with automatic name: 1
+TermSocket.open: 1
+not able to serialize: expected string or bytes-like object
+TermSocket.open: Opened 1
+TermSocket.open: 1
+not able to serialize: expected string or bytes-like object
+TermSocket.open: Opened 1
+[I 13:14:51.636 NotebookApp] Saving file at /4D_pressure_calib.ipynb
+[W 13:14:51.637 NotebookApp] Notebook 4D_pressure_calib.ipynb is not trusted
+[W 13:14:52.875 NotebookApp] Replacing stale connection: d73ba3b5-3174-4bd0-ae9f-25f7c053355e:8b5d870e-ee41-4f6b-aa32-0825d1a23013
+[W 13:14:53.482 NotebookApp] Replacing stale connection: d73ba3b5-3174-4bd0-ae9f-25f7c053355e:01ba3435-fb21-4b10-8795-4915a5104511
+[W 13:14:57.885 NotebookApp] zmq message arrived on closed channel
+[W 13:14:57.886 NotebookApp] zmq message arrived on closed channel
+[W 13:14:58.258 NotebookApp] zmq message arrived on closed channel
+[W 13:14:58.261 NotebookApp] zmq message arrived on closed channel
+[W 13:14:58.367 NotebookApp] zmq message arrived on closed channel
+[W 13:14:58.371 NotebookApp] zmq message arrived on closed channel
+[W 13:16:09.068 NotebookApp] WebSocket ping timeout after 119711 ms.
+Websocket closed
+[I 13:20:55.393 NotebookApp] Saving file at /4D_pressure_calib.ipynb
+[W 13:20:55.393 NotebookApp] Notebook 4D_pressure_calib.ipynb is not trusted
+[W 13:21:00.813 NotebookApp] Notebook appmode_all.ipynb is not trusted
+[I 13:21:03.187 NotebookApp] Kernel started: 0e984f3d-06ed-4bf6-b173-959f95aa5a6e, name: python3
+[I 13:22:56.501 NotebookApp] Saving file at /4D_pressure_calib.ipynb
+[W 13:22:56.501 NotebookApp] Notebook 4D_pressure_calib.ipynb is not trusted
+[I 13:26:57.848 NotebookApp] Saving file at /4D_pressure_calib.ipynb
+[W 13:26:57.848 NotebookApp] Notebook 4D_pressure_calib.ipynb is not trusted
+[W 13:31:50.624 NotebookApp] Culling 'starting' kernel 'python3' (0e984f3d-06ed-4bf6-b173-959f95aa5a6e) with 0 connections due to 647 seconds of inactivity.
+[I 13:31:50.625 NotebookApp] Kernel shutdown: 0e984f3d-06ed-4bf6-b173-959f95aa5a6e
+[I 13:37:00.211 NotebookApp] Saving file at /4D_pressure_calib.ipynb
+[W 13:37:00.212 NotebookApp] Notebook 4D_pressure_calib.ipynb is not trusted
+[I 13:39:00.986 NotebookApp] Saving file at /4D_pressure_calib.ipynb
+[W 13:39:00.986 NotebookApp] Notebook 4D_pressure_calib.ipynb is not trusted
+[I 13:41:02.162 NotebookApp] Saving file at /4D_pressure_calib.ipynb
+[W 13:41:02.162 NotebookApp] Notebook 4D_pressure_calib.ipynb is not trusted
+[I 13:41:03.066 NotebookApp] Saving file at /4D_pressure_calib.ipynb
+[W 13:41:03.066 NotebookApp] Notebook 4D_pressure_calib.ipynb is not trusted
+[I 13:43:04.269 NotebookApp] Saving file at /4D_pressure_calib.ipynb
+[W 13:43:04.269 NotebookApp] Notebook 4D_pressure_calib.ipynb is not trusted
+[I 13:47:05.203 NotebookApp] Saving file at /4D_pressure_calib.ipynb
+[W 13:47:05.204 NotebookApp] Notebook 4D_pressure_calib.ipynb is not trusted
+[I 13:49:07.263 NotebookApp] Saving file at /4D_pressure_calib.ipynb
+[W 13:49:07.264 NotebookApp] Notebook 4D_pressure_calib.ipynb is not trusted
+[I 13:50:41.661 NotebookApp] Saving file at /4D_pressure_calib.ipynb
+[W 13:50:41.662 NotebookApp] Notebook 4D_pressure_calib.ipynb is not trusted
+[I 13:52:19.529 NotebookApp] Copying visund_brent.yaml to 
+[I 13:53:34.274 NotebookApp] Saving file at /visund_brent_edit.yaml
+[I 13:54:06.583 NotebookApp] Saving file at /visund_brent_edit.yaml
+[I 13:56:42.569 NotebookApp] Saving file at /4D_pressure_calib.ipynb
+[W 13:56:42.569 NotebookApp] Notebook 4D_pressure_calib.ipynb is not trusted
+[I 13:58:43.458 NotebookApp] Saving file at /4D_pressure_calib.ipynb
+[W 13:58:43.458 NotebookApp] Notebook 4D_pressure_calib.ipynb is not trusted
