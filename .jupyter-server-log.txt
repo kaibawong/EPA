@@ -301,3 +301,83 @@ Websocket closed
 TermSocket.open: 1
 not able to serialize: expected string or bytes-like object
 TermSocket.open: Opened 1
+[I 08:35:28.599 NotebookApp] Appmode server extension loaded.
+[W 2022-03-15 08:35:29.238 LabApp] 'ip' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[W 2022-03-15 08:35:29.238 LabApp] 'port' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[W 2022-03-15 08:35:29.238 LabApp] 'port' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[W 2022-03-15 08:35:29.238 LabApp] 'base_url' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[W 2022-03-15 08:35:29.238 LabApp] 'token' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[W 2022-03-15 08:35:29.238 LabApp] 'trust_xheaders' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[W 2022-03-15 08:35:29.238 LabApp] 'allow_origin' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[W 2022-03-15 08:35:29.238 LabApp] 'allow_origin_pat' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[W 2022-03-15 08:35:29.238 LabApp] 'extra_template_paths' was found in both NotebookApp and ServerApp. This is likely a recent change. This config will only be set in NotebookApp. Please check if you should also config these traits in ServerApp for your purpose.
+[W 2022-03-15 08:35:29.238 LabApp] 'jinja_template_vars' was found in both NotebookApp and ServerApp. This is likely a recent change. This config will only be set in NotebookApp. Please check if you should also config these traits in ServerApp for your purpose.
+[W 2022-03-15 08:35:29.238 LabApp] 'shutdown_no_activity_timeout' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[W 2022-03-15 08:35:29.238 LabApp] 'tornado_settings' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[W 2022-03-15 08:35:29.238 LabApp] 'tornado_settings' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[I 2022-03-15 08:35:29.244 LabApp] JupyterLab extension loaded from /srv/conda/envs/notebook/lib/python3.7/site-packages/jupyterlab
+[I 2022-03-15 08:35:29.245 LabApp] JupyterLab application directory is /srv/conda/envs/notebook/share/jupyter/lab
+[I 08:35:29.254 NotebookApp] nteract extension loaded from /srv/conda/envs/notebook/lib/python3.7/site-packages/nteract_on_jupyter
+[I 08:35:29.256 NotebookApp] Will shut down after 600 seconds with no kernels or terminals.
+[I 08:35:29.256 NotebookApp] Serving notebooks from local directory: /home/jovyan
+[I 08:35:29.257 NotebookApp] Jupyter Notebook 6.3.0 is running at:
+[I 08:35:29.257 NotebookApp] http://jupyter-kaibawong-2depa-2d0snxjah8:8888/binder/jupyter/user/kaibawong-epa-0snxjah8/?token=...
+[I 08:35:29.257 NotebookApp]  or http://127.0.0.1:8888/binder/jupyter/user/kaibawong-epa-0snxjah8/?token=...
+[I 08:35:29.257 NotebookApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[W 08:35:29.261 NotebookApp] No web browser found: could not locate runnable browser.
+[I 08:35:29.825 NotebookApp] 302 GET /binder/jupyter/user/kaibawong-epa-0snxjah8/ (10.244.90.28) 1.250000ms
+[I 08:35:30.201 NotebookApp] 302 GET /binder/jupyter/user/kaibawong-epa-0snxjah8/?token=Qt7WiNm-StGQTl8wtxCcTA (143.97.2.35) 1.370000ms
+[I 08:35:30.247 NotebookApp] 301 GET /binder/jupyter/user/kaibawong-epa-0snxjah8/lab/?token=Qt7WiNm-StGQTl8wtxCcTA (143.97.2.35) 2.530000ms
+[I 08:35:32.255 NotebookApp] 301 GET /binder/jupyter/user/kaibawong-epa-0snxjah8/static/favicons/favicon.ico (143.97.2.35) 1.070000ms
+/srv/conda/envs/notebook/lib/python3.7/json/encoder.py:257: UserWarning: date_default is deprecated since jupyter_client 7.0.0. Use jupyter_client.jsonutil.json_default.
+  return _iterencode(o, 0)
+[I 2022-03-15 08:35:35.409 LabApp] Build is up to date
+/srv/conda/envs/notebook/lib/python3.7/json/encoder.py:257: UserWarning: date_default is deprecated since jupyter_client 7.0.0. Use jupyter_client.jsonutil.json_default.
+  return _iterencode(o, 0)
+[W 08:35:35.713 NotebookApp] 404 GET /binder/jupyter/user/kaibawong-epa-0snxjah8/terminals/websocket/1 (143.97.2.35) 41.470000ms referer=None
+[W 08:35:35.875 NotebookApp] Notebook 4D_pressure_calib.ipynb is not trusted
+[W 08:35:35.950 NotebookApp] Notebook appmode_all.ipynb is not trusted
+[I 08:35:36.503 NotebookApp] Kernel started: 08c32874-05fb-4b35-befa-6517cec27561, name: python3
+[I 08:35:36.503 NotebookApp] Culling kernels with idle durations > 600 seconds at 60 second intervals ...
+[I 08:35:36.504 NotebookApp] Culling kernels even with connected clients
+/srv/conda/envs/notebook/lib/python3.7/json/encoder.py:257: UserWarning: date_default is deprecated since jupyter_client 7.0.0. Use jupyter_client.jsonutil.json_default.
+  return _iterencode(o, 0)
+[I 08:35:37.073 NotebookApp] Kernel started: f4139864-91b1-4b82-b711-3fa99b7bde06, name: python3
+[I 08:35:37.372 NotebookApp] 301 GET /binder/jupyter/user/kaibawong-epa-0snxjah8/static/favicons/favicon-busy-1.ico (143.97.2.35) 0.950000ms
+[I 08:37:40.296 NotebookApp] Saving file at /4D_pressure_calib.ipynb
+[W 08:37:40.298 NotebookApp] Notebook 4D_pressure_calib.ipynb is not trusted
+[I 08:38:14.233 NotebookApp] Saving file at /appmode_all.ipynb
+[W 08:38:14.233 NotebookApp] Notebook appmode_all.ipynb is not trusted
+[I 08:38:16.785 NotebookApp] New terminal with automatic name: 1
+TermSocket.open: 1
+not able to serialize: expected string or bytes-like object
+TermSocket.open: Opened 1
+[I 08:39:05.603 NotebookApp] Saving file at /environment.yml
+[I 08:41:06.538 NotebookApp] Saving file at /environment.yml
+[I 08:44:30.078 NotebookApp] Saving file at /appmode_all.ipynb
+[I 08:46:32.037 NotebookApp] Saving file at /appmode_all.ipynb
+[I 08:48:35.057 NotebookApp] Saving file at /appmode_all.ipynb
+[I 08:49:09.341 NotebookApp] Saving file at /environment.yml
+[I 08:50:36.789 NotebookApp] Saving file at /appmode_all.ipynb
+[I 08:54:37.612 NotebookApp] Saving file at /appmode_all.ipynb
+[I 09:03:51.744 NotebookApp] Saving file at /requirements.txt
+[W 09:04:36.505 NotebookApp] Culling 'idle' kernel 'python3' (08c32874-05fb-4b35-befa-6517cec27561) with 2 connections due to 645 seconds of inactivity.
+[I 09:04:36.507 NotebookApp] Kernel shutdown: 08c32874-05fb-4b35-befa-6517cec27561
+[W 09:04:36.815 NotebookApp] Culling 'idle' kernel 'python3' (f4139864-91b1-4b82-b711-3fa99b7bde06) with 3 connections due to 641 seconds of inactivity.
+[I 09:04:36.816 NotebookApp] Kernel shutdown: f4139864-91b1-4b82-b711-3fa99b7bde06
+[I 09:08:39.115 NotebookApp] Saving file at /appmode_all.ipynb
+[I 09:09:10.405 NotebookApp] Saving file at /environment.yml
+[I 09:10:17.041 NotebookApp] Saving file at /appmode_all.ipynb
+[I 09:10:19.299 NotebookApp] Kernel started: c6d356ec-c755-48bd-a336-c5199d047e75, name: python3
+[I 09:11:40.614 NotebookApp] Saving file at /environment.yml
+[I 09:12:19.417 NotebookApp] Saving file at /appmode_all.ipynb
+[I 09:13:04.558 NotebookApp] Saving file at /environment.yml
+[I 09:14:02.785 NotebookApp] Saving file at /environment.yml
+[I 09:14:16.596 NotebookApp] Saving file at /environment.yml
+[I 09:14:21.934 NotebookApp] Saving file at /appmode_all.ipynb
+[I 09:14:40.176 NotebookApp] Saving file at /environment.yml
+[I 09:14:52.322 NotebookApp] New terminal with automatic name: 2
+TermSocket.open: 2
+not able to serialize: expected string or bytes-like object
+TermSocket.open: Opened 2
+[I 09:16:23.101 NotebookApp] Saving file at /appmode_all.ipynb

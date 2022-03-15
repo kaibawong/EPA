@@ -1,5 +1,5 @@
 {
-  "base_url": "/user/kaibawong-epa-lud8eia6/",
+  "base_url": "/binder/jupyter/user/kaibawong-epa-0snxjah8/",
   "hostname": "0.0.0.0",
   "notebook_dir": "/home/jovyan",
   "password": false,
@@ -7,6 +7,6 @@
   "port": 8888,
   "secure": false,
   "sock": "",
-  "token": "WsUID-0kQHCkqaiGRQ-CWw",
-  "url": "http://0.0.0.0:8888/user/kaibawong-epa-lud8eia6/"
+  "token": "Qt7WiNm-StGQTl8wtxCcTA",
+  "url": "http://0.0.0.0:8888/binder/jupyter/user/kaibawong-epa-0snxjah8/"
 }

@@ -5,11 +5,13 @@ channels:
   
 dependencies:
   - appmode
+  - python=3.10.2
 
   
   - pip:
+
     - appmode==0.7.0
-    - bokeh==1.4.0
+    - bokeh==2.4.2
     - holoviews==1.12.6
     - bqplot==0.11.9
     - cycler==0.10.0
@@ -32,7 +34,8 @@ dependencies:
     - traittypes==0.2.1
     - plotly
     - cufflinks
-  
+    - hvplot 
+   
     
 prefix: /srv/conda/envs/notebook
 
