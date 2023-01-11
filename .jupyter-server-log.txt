@@ -381,3 +381,71 @@ TermSocket.open: 2
 not able to serialize: expected string or bytes-like object
 TermSocket.open: Opened 2
 [I 09:16:23.101 NotebookApp] Saving file at /appmode_all.ipynb
+[I 12:04:27.523 NotebookApp] Appmode server extension loaded.
+[W 2023-01-11 12:04:28.120 LabApp] 'ip' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[W 2023-01-11 12:04:28.120 LabApp] 'port' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[W 2023-01-11 12:04:28.120 LabApp] 'base_url' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[W 2023-01-11 12:04:28.120 LabApp] 'token' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[W 2023-01-11 12:04:28.120 LabApp] 'trust_xheaders' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[W 2023-01-11 12:04:28.120 LabApp] 'allow_origin' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[W 2023-01-11 12:04:28.120 LabApp] 'allow_origin_pat' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[W 2023-01-11 12:04:28.120 LabApp] 'extra_template_paths' was found in both NotebookApp and ServerApp. This is likely a recent change. This config will only be set in NotebookApp. Please check if you should also config these traits in ServerApp for your purpose.
+[W 2023-01-11 12:04:28.120 LabApp] 'jinja_template_vars' was found in both NotebookApp and ServerApp. This is likely a recent change. This config will only be set in NotebookApp. Please check if you should also config these traits in ServerApp for your purpose.
+[W 2023-01-11 12:04:28.120 LabApp] 'shutdown_no_activity_timeout' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[W 2023-01-11 12:04:28.120 LabApp] 'tornado_settings' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[W 2023-01-11 12:04:28.120 LabApp] 'tornado_settings' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[I 2023-01-11 12:04:28.132 LabApp] JupyterLab extension loaded from /srv/conda/envs/notebook/lib/python3.7/site-packages/jupyterlab
+[I 2023-01-11 12:04:28.133 LabApp] JupyterLab application directory is /srv/conda/envs/notebook/share/jupyter/lab
+[I 12:04:28.142 NotebookApp] nteract extension loaded from /srv/conda/envs/notebook/lib/python3.7/site-packages/nteract_on_jupyter
+[I 12:04:29.416 NotebookApp] Will shut down after 600 seconds with no kernels or terminals.
+[I 12:04:29.417 NotebookApp] Serving notebooks from local directory: /home/jovyan
+[I 12:04:29.417 NotebookApp] Jupyter Notebook 6.4.12 is running at:
+[I 12:04:29.418 NotebookApp] http://jupyter-kaibawong-2depa-2d0x31nk1v:8888/user/kaibawong-epa-0x31nk1v/?token=...
+[I 12:04:29.418 NotebookApp]  or http://127.0.0.1:8888/user/kaibawong-epa-0x31nk1v/?token=...
+[I 12:04:29.418 NotebookApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[W 12:04:29.421 NotebookApp] No web browser found: could not locate runnable browser.
+[I 12:04:29.531 NotebookApp] 302 GET /user/kaibawong-epa-0x31nk1v/ (10.0.5.47) 0.940000ms
+[I 12:04:29.668 NotebookApp] 302 GET /user/kaibawong-epa-0x31nk1v/?token=5eke_fbrTwqMcLQ-TSk8VA (143.97.2.35) 0.780000ms
+[I 12:04:29.784 NotebookApp] 301 GET /user/kaibawong-epa-0x31nk1v/lab/?token=5eke_fbrTwqMcLQ-TSk8VA (143.97.2.35) 1.710000ms
+[I 12:04:38.934 NotebookApp] 301 GET /user/kaibawong-epa-0x31nk1v/static/favicons/favicon.ico (143.97.2.35) 0.800000ms
+[I 2023-01-11 12:04:46.702 LabApp] Build is up to date
+[I 12:04:47.865 NotebookApp] New terminal with automatic name: 1
+[W 12:04:48.445 NotebookApp] Notebook 4D_pressure_calib.ipynb is not trusted
+[I 12:04:50.286 NotebookApp] Kernel started: 7dca749b-3631-472b-91d9-874431b6f3d9, name: python3
+[I 12:04:50.286 NotebookApp] Culling kernels with idle durations > 600 seconds at 60 second intervals ...
+[I 12:04:50.286 NotebookApp] Culling kernels even with connected clients
+[I 12:04:51.327 NotebookApp] Kernel started: c367788d-5a15-4997-96f4-ef688776527c, name: python3
+[I 12:04:51.779 NotebookApp] Starting buffering for 7dca749b-3631-472b-91d9-874431b6f3d9:f38f246e-ebbb-436e-be30-2b4594d14782
+[I 12:04:52.263 NotebookApp] 301 GET /user/kaibawong-epa-0x31nk1v/static/favicons/favicon-busy-1.ico (143.97.2.35) 0.750000ms
+[IPKernelApp] ERROR | No such comm target registered: jupyter.widget.control
+[IPKernelApp] WARNING | No such comm: 5732ae7c-db9e-416e-a265-2a254caf9ccd
+[IPKernelApp] ERROR | No such comm target registered: jupyter.widget.control
+[IPKernelApp] WARNING | No such comm: 95dcf4d1-3679-46f0-b835-82858e8f4a86
+[W 12:15:50.288 NotebookApp] Culling 'idle' kernel 'python3' (7dca749b-3631-472b-91d9-874431b6f3d9) with 1 connections due to 657 seconds of inactivity.
+[I 12:15:50.290 NotebookApp] Kernel shutdown: 7dca749b-3631-472b-91d9-874431b6f3d9
+[W 12:15:50.505 NotebookApp] Culling 'idle' kernel 'python3' (c367788d-5a15-4997-96f4-ef688776527c) with 2 connections due to 657 seconds of inactivity.
+[I 12:15:50.505 NotebookApp] Kernel shutdown: c367788d-5a15-4997-96f4-ef688776527c
+[I 2023-01-11 13:37:08.448 LabApp] Build is up to date
+[I 13:37:10.123 NotebookApp] New terminal with automatic name: 2
+[W 13:37:11.026 NotebookApp] Notebook 4D_pressure_calib.ipynb is not trusted
+[I 13:37:14.048 NotebookApp] Kernel started: 26063bbb-d360-4a0d-986c-b6a75d94e934, name: python3
+[I 13:37:15.895 NotebookApp] Starting buffering for 26063bbb-d360-4a0d-986c-b6a75d94e934:5ad62e7f-2656-4abf-9fcd-53bb3ee1d34a
+[I 13:37:16.415 NotebookApp] Creating new notebook in 
+[IPKernelApp] ERROR | No such comm target registered: jupyter.widget.control
+[IPKernelApp] WARNING | No such comm: 71e738b7-8388-4d5a-be33-de9516ecb31e
+[I 13:37:17.441 NotebookApp] Kernel started: 91fe85e4-1421-4956-b88b-15a4a072c6b6, name: python3
+[I 13:37:17.829 NotebookApp] Kernel started: 8f9b2082-791f-49c7-8f3c-d405d186408d, name: python3
+[IPKernelApp] ERROR | No such comm target registered: jupyter.widget.control
+[IPKernelApp] WARNING | No such comm: 19aeac56-9e11-4198-ae3d-ab67e733e208
+[IPKernelApp] ERROR | No such comm target registered: jupyter.widget.control
+[IPKernelApp] WARNING | No such comm: 71af82dd-559b-4e16-a19f-b72200936652
+[I 13:37:49.899 NotebookApp] Uploading file to /matrix_grane_calc.csv
+[I 13:39:17.642 NotebookApp] Saving file at /Untitled2.ipynb
+[I 13:41:18.138 NotebookApp] Saving file at /Untitled2.ipynb
+[I 13:43:18.864 NotebookApp] Saving file at /Untitled2.ipynb
+[I 13:45:19.812 NotebookApp] Saving file at /Untitled2.ipynb
+[I 13:47:20.343 NotebookApp] Saving file at /Untitled2.ipynb
+[W 13:47:50.287 NotebookApp] Culling 'idle' kernel 'python3' (26063bbb-d360-4a0d-986c-b6a75d94e934) with 1 connections due to 619 seconds of inactivity.
+[I 13:47:50.288 NotebookApp] Kernel shutdown: 26063bbb-d360-4a0d-986c-b6a75d94e934
+[I 13:48:12.432 NotebookApp] New terminal with automatic name: 3
+[I 13:49:22.159 NotebookApp] Saving file at /Untitled2.ipynb
